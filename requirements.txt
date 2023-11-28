@@ -3,7 +3,6 @@ gunicorn
 numpy
 scipy
 pandas
-pickle
 render_template
 request
 send_file
