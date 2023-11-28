@@ -28,4 +28,4 @@ def predd():
     return render_template('model.html', preddd='Your budget for travel is {:.2f}'.format(prediction[0]))
   
 if __name__=='__main__':
-    app.run(debug=True)
+    app.run(debug=True,host="0.0.0.0")
