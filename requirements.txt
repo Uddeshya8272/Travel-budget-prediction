@@ -3,6 +3,4 @@ gunicorn
 numpy
 scipy
 pandas
-render_template
-request
-send_file
+seaborn
