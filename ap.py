@@ -17,11 +17,11 @@ def pred():
 
 @app.route('/additional/UD_RESUME.pdf')
 def download_resume():
-    return send_file('C:/Users/lenovo/OneDrive/Documents/project/minor project/additional/UD_RESUME.pdf')
+    return send_file('additional/UD_RESUME.pdf')
 
 @app.route('/additional/Resume_Aditi.pdf')
 def download_resumew():
-    return send_file('C:/Users/lenovo/OneDrive/Documents/project/minor project/additional/Resume_Aditi.pdf')
+    return send_file('additional/Resume_Aditi.pdf')
 
 @app.route('/pred',methods=['POST','GET'])
 def predd():
