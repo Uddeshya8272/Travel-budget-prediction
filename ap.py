@@ -5,7 +5,7 @@ import pickle
 app = Flask(__name__)
 
 model=pickle.load(open('pipeline.pkl','rb'))
-df=pickle.load(open('travel_data.pkl','rb'))
+#df=pickle.load(open('travel_data.pkl','rb'))
 
 @app.route('/')
 def hello_world():
